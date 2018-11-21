@@ -1,0 +1,584 @@
+{
+    "itemPerPage": 5,
+    "header": [
+        {
+            "name": "First Name",
+            "key": "first_name",
+            "filter": false,
+            "colNum": 0,
+            "sort": true
+        },
+        {
+            "name": "Last Name",
+            "key": "last_name",
+            "filter": false,
+            "colNum": 1,
+            "sort": true
+        },
+        {
+            "name": "Gender",
+            "key": "gender",
+            "filter": true,
+            "colNum": 2,
+            "sort": false,
+            "filterArr": [
+                "Male",
+                "Female",
+                "Ignore"
+            ]
+        },
+        {
+            "name": "Occupation",
+            "key": "occupation",
+            "filter": true,
+            "colNum": 3,
+            "sort": false,
+            "filterArr": [
+                "student",
+                "working"
+            ]
+        },
+        {
+            "name": "Hobbies",
+            "key": "hobbies",
+            "filter": true,
+            "colNum": 4,
+            "sort": false,
+            "filterArr": [
+                "music",
+                "reading",
+                "sport"
+            ]
+        }
+    ],
+    "list": [
+        [
+            {
+                "cntrlType": "input",
+                "key": "first_name",
+                "value": "Gracie"
+            },
+            {
+                "cntrlType": "data",
+                "key": "last_name",
+                "value": "Tremayle"
+            },
+            {
+                "cntrlType": "select",
+                "key": "gender",
+                "value": "Female",
+                "options": [
+                    "Male",
+                    "Female",
+                    "Ignore"
+                ]
+            },
+            {
+                "cntrlType": "radio",
+                "key": "occupation",
+                "value": "student",
+                "options": [
+                    "student",
+                    "working"
+                ]
+            },
+            {
+                "cntrlType": "check",
+                "key": "hobbies",
+                "value": [
+                    "music",
+                    "reading"
+                ],
+                "options": [
+                    "music",
+                    "reading",
+                    "sport"
+                ]
+            }
+        ],
+        [
+            {
+                "cntrlType": "input",
+                "key": "first_name",
+                "value": "Cyril"
+            },
+            {
+                "cntrlType": "data",
+                "key": "last_name",
+                "value": "Choppin"
+            },
+            {
+                "cntrlType": "select",
+                "key": "gender",
+                "value": "Male",
+                "options": [
+                    "Male",
+                    "Female",
+                    "Ignore"
+                ]
+            },
+            {
+                "cntrlType": "radio",
+                "key": "occupation",
+                "value": "working",
+                "options": [
+                    "student",
+                    "working"
+                ]
+            },
+            {
+                "cntrlType": "check",
+                "key": "hobbies",
+                "value": [
+                    "music",
+                    "reading"
+                ],
+                "options": [
+                    "music",
+                    "reading",
+                    "sport"
+                ]
+            }
+        ],
+        [
+            {
+                "cntrlType": "input",
+                "key": "first_name",
+                "value": "Jolie"
+            },
+            {
+                "cntrlType": "data",
+                "key": "last_name",
+                "value": "Fallens"
+            },
+            {
+                "cntrlType": "select",
+                "key": "gender",
+                "value": "Female",
+                "options": [
+                    "Male",
+                    "Female",
+                    "Ignore"
+                ]
+            },
+            {
+                "cntrlType": "radio",
+                "key": "occupation",
+                "value": "working",
+                "options": [
+                    "student",
+                    "working"
+                ]
+            },
+            {
+                "cntrlType": "check",
+                "key": "hobbies",
+                "value": [
+                    "music",
+                    "reading"
+                ],
+                "options": [
+                    "music",
+                    "reading",
+                    "sport"
+                ]
+            }
+        ],
+        [
+            {
+                "cntrlType": "input",
+                "key": "first_name",
+                "value": "Jarrid"
+            },
+            {
+                "cntrlType": "data",
+                "key": "last_name",
+                "value": "Giannazzi"
+            },
+            {
+                "cntrlType": "select",
+                "key": "gender",
+                "value": "Male",
+                "options": [
+                    "Male",
+                    "Female",
+                    "Ignore"
+                ]
+            },
+            {
+                "cntrlType": "radio",
+                "key": "occupation",
+                "value": "student",
+                "options": [
+                    "student",
+                    "working"
+                ]
+            },
+            {
+                "cntrlType": "check",
+                "key": "hobbies",
+                "value": [
+                    "music",
+                    "reading"
+                ],
+                "options": [
+                    "music",
+                    "reading",
+                    "sport"
+                ]
+            }
+        ],
+        [
+            {
+                "cntrlType": "input",
+                "key": "first_name",
+                "value": "Vaughan"
+            },
+            {
+                "cntrlType": "data",
+                "key": "last_name",
+                "value": "Longo"
+            },
+            {
+                "cntrlType": "select",
+                "key": "gender",
+                "value": "Male",
+                "options": [
+                    "Male",
+                    "Female",
+                    "Ignore"
+                ]
+            },
+            {
+                "cntrlType": "radio",
+                "key": "occupation",
+                "value": "working",
+                "options": [
+                    "student",
+                    "working"
+                ]
+            },
+            {
+                "cntrlType": "check",
+                "key": "hobbies",
+                "value": [
+                    "music",
+                    "reading"
+                ],
+                "options": [
+                    "music",
+                    "reading",
+                    "sport"
+                ]
+            }
+        ],
+        [
+            {
+                "cntrlType": "input",
+                "key": "first_name",
+                "value": "Vaughan"
+            },
+            {
+                "cntrlType": "data",
+                "key": "last_name",
+                "value": "Longo"
+            },
+            {
+                "cntrlType": "select",
+                "key": "gender",
+                "value": "Male",
+                "options": [
+                    "Male",
+                    "Female",
+                    "Ignore"
+                ]
+            },
+            {
+                "cntrlType": "radio",
+                "key": "occupation",
+                "value": "working",
+                "options": [
+                    "student",
+                    "working"
+                ]
+            },
+            {
+                "cntrlType": "check",
+                "key": "hobbies",
+                "value": [
+                    "music",
+                    "reading"
+                ],
+                "options": [
+                    "music",
+                    "reading",
+                    "sport"
+                ]
+            }
+        ],
+        [
+            {
+                "cntrlType": "input",
+                "key": "first_name",
+                "value": "Vaughan"
+            },
+            {
+                "cntrlType": "data",
+                "key": "last_name",
+                "value": "Longo"
+            },
+            {
+                "cntrlType": "select",
+                "key": "gender",
+                "value": "Male",
+                "options": [
+                    "Male",
+                    "Female",
+                    "Ignore"
+                ]
+            },
+            {
+                "cntrlType": "radio",
+                "key": "occupation",
+                "value": "working",
+                "options": [
+                    "student",
+                    "working"
+                ]
+            },
+            {
+                "cntrlType": "check",
+                "key": "hobbies",
+                "value": [
+                    "music",
+                    "reading"
+                ],
+                "options": [
+                    "music",
+                    "reading",
+                    "sport"
+                ]
+            }
+        ],
+        [
+            {
+                "cntrlType": "input",
+                "key": "first_name",
+                "value": "Vaughan"
+            },
+            {
+                "cntrlType": "data",
+                "key": "last_name",
+                "value": "Longo"
+            },
+            {
+                "cntrlType": "select",
+                "key": "gender",
+                "value": "Male",
+                "options": [
+                    "Male",
+                    "Female",
+                    "Ignore"
+                ]
+            },
+            {
+                "cntrlType": "radio",
+                "key": "occupation",
+                "value": "working",
+                "options": [
+                    "student",
+                    "working"
+                ]
+            },
+            {
+                "cntrlType": "check",
+                "key": "hobbies",
+                "value": [
+                    "music",
+                    "reading"
+                ],
+                "options": [
+                    "music",
+                    "reading",
+                    "sport"
+                ]
+            }
+        ],
+        [
+            {
+                "cntrlType": "input",
+                "key": "first_name",
+                "value": "Vaughan"
+            },
+            {
+                "cntrlType": "data",
+                "key": "last_name",
+                "value": "Longo"
+            },
+            {
+                "cntrlType": "select",
+                "key": "gender",
+                "value": "Male",
+                "options": [
+                    "Male",
+                    "Female",
+                    "Ignore"
+                ]
+            },
+            {
+                "cntrlType": "radio",
+                "key": "occupation",
+                "value": "working",
+                "options": [
+                    "student",
+                    "working"
+                ]
+            },
+            {
+                "cntrlType": "check",
+                "key": "hobbies",
+                "value": [
+                    "music",
+                    "reading"
+                ],
+                "options": [
+                    "music",
+                    "reading",
+                    "sport"
+                ]
+            }
+        ],
+        [
+            {
+                "cntrlType": "input",
+                "key": "first_name",
+                "value": "Vaughan"
+            },
+            {
+                "cntrlType": "data",
+                "key": "last_name",
+                "value": "Longo"
+            },
+            {
+                "cntrlType": "select",
+                "key": "gender",
+                "value": "Male",
+                "options": [
+                    "Male",
+                    "Female",
+                    "Ignore"
+                ]
+            },
+            {
+                "cntrlType": "radio",
+                "key": "occupation",
+                "value": "working",
+                "options": [
+                    "student",
+                    "working"
+                ]
+            },
+            {
+                "cntrlType": "check",
+                "key": "hobbies",
+                "value": [
+                    "music",
+                    "reading"
+                ],
+                "options": [
+                    "music",
+                    "reading",
+                    "sport"
+                ]
+            }
+        ],
+        [
+            {
+                "cntrlType": "input",
+                "key": "first_name",
+                "value": "Vaughan"
+            },
+            {
+                "cntrlType": "data",
+                "key": "last_name",
+                "value": "Longo"
+            },
+            {
+                "cntrlType": "select",
+                "key": "gender",
+                "value": "Male",
+                "options": [
+                    "Male",
+                    "Female",
+                    "Ignore"
+                ]
+            },
+            {
+                "cntrlType": "radio",
+                "key": "occupation",
+                "value": "working",
+                "options": [
+                    "student",
+                    "working"
+                ]
+            },
+            {
+                "cntrlType": "check",
+                "key": "hobbies",
+                "value": [
+                    "music",
+                    "reading"
+                ],
+                "options": [
+                    "music",
+                    "reading",
+                    "sport"
+                ]
+            }
+        ],
+        [
+            {
+                "cntrlType": "input",
+                "key": "first_name",
+                "value": "Vaughan"
+            },
+            {
+                "cntrlType": "data",
+                "key": "last_name",
+                "value": "Longo"
+            },
+            {
+                "cntrlType": "select",
+                "key": "gender",
+                "value": "Male",
+                "options": [
+                    "Male",
+                    "Female",
+                    "Ignore"
+                ]
+            },
+            {
+                "cntrlType": "radio",
+                "key": "occupation",
+                "value": "working",
+                "options": [
+                    "student",
+                    "working"
+                ]
+            },
+            {
+                "cntrlType": "check",
+                "key": "hobbies",
+                "value": [
+                    "music",
+                    "reading"
+                ],
+                "options": [
+                    "music",
+                    "reading",
+                    "sport"
+                ]
+            }
+        ]
+    ]
+}

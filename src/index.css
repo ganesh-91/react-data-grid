@@ -1,0 +1,80 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.pagination .page-link {
+    /* margin: 0px 5px; */
+    /* height: 25px; */
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+    /* width: 25px; */
+    font-size: 13px;
+    padding: 0px 5px;
+}
+
+.pagination .page-link.active {
+    /* padding: 0px 5px; */
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 3px;
+}
+
+.table {
+    width: 100%;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-spacing: 0px;
+}
+
+.table__thead--tr:last-child .table__thead--th {
+    border-bottom: 1px solid gray;
+    padding: 0px 8px 8px 8px;
+}
+
+.table__thead--tr:last-child .table__thead--th:not(:last-child) {
+    border-right: 1px solid gray;
+}
+
+.table__thead--tr:first-child .table__thead--th {
+    padding: 8px 8px 0px 8px;
+}
+
+.table__thead--tr:first-child .table__thead--th:not(:last-child) {
+    border-right: 1px solid gray;
+}
+
+.table__thead--tr .table__thead--th {
+    min-width: 200px;
+    text-align: left;
+}
+
+.table__thead--th .table__thead--name {}
+
+.table__thead--th .table__thead--name .table__thead--sort-icon {
+    margin-left: 5px;
+}
+
+.table__tbody--tr {}
+
+.table__tbody--tr-td {
+    padding: 4px 8px;
+    border-bottom: 1px solid gray;
+}
+
+.table__tbody--tr-td:not(:last-child) {
+    border-right: 1px solid gray;
+}
+
+.table__tbody--tr-td.no-data {
+    text-align: center;
+}

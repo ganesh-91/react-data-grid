@@ -1,0 +1,12 @@
+/node_modules/*
+npm-debug*
+*.logs
+/bin
+npm-debug.log
+src/dist/*
+src/trackingScript/dist/*
+.vscode/*
+.DS_Store
+.jsbeautifyrc
+.eslintrc.json
+.eslintrc
